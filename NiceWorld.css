@@ -1,25 +1,48 @@
 *{
+    box-sizing: border-box;
 }
 body{
     background-image: url("Images/ChillBackgound.webp");
 }
+
+.row{
+
+}
+.column{
+    float: left;
+    width: 45%;
+}
 .navbar{
+}
+.Attention{
+    color: purple;
+}
+.NavLink{
+    display: flex;
+    justify-content: center;
 }
 nav a{
     text-decoration: none;
     font-size: 18px;
     color: rgb(168, 5, 255);
     font-weight: 900;   
-    margin: 10px;
-    padding: 10px;
+    margin: 2px;
+    padding: 25px;
+    border: 8px;
+    border-style: solid;
+
+    border-color: rgba(255, 5, 159, 0.429);
 }
 a:hover{
     color:red;
+    border-color: aqua;
+    border-radius: 10px;
+    border:20px;
 }
-
 .main{
     font-weight: 900;
 }
+
 .main div{
     margin: 10px 30px 10px 30px;
     padding: 10px 30px 10px 30px;
